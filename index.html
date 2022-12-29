@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Admin Page</title>
+
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="fullMenu__container">
+      <div class="fullMenu__inside">
+        <!-- <span class="close">&times;</span> -->
+      <div class="fullMenu__items">
+        <div class="fullMenu__title">برنامه ها</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg> پروژه</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg> فروش ها</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> کریپتو</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> اکانت</div>
+        <div class="fullMenu__title">کامپوننت های یو ای</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg> فیدبک</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg> فورم ها</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg> گراف ها</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg> مسیریابی</div>
+        <div class="fullMenu__title">برنامه ها</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg> پروژه</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg> فروش ها</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> کریپتو</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> اکانت</div>
+        <div class="fullMenu__title">برنامه ها</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg> پروژه</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg> فروش ها</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> کریپتو</div>
+        <div class="fullMenu__item"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> اکانت</div>
+      </div>
+      </div>
+    </div>
+    <div class="mobile__menu">
+      <div class="mobile__menu-left">
+        <div id="myBtn"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path></svg></div>
+        <div><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></div>
+      </div>
+      <div class="mobile__menu-right">
+        <div><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg></div>
+        <div><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg></div>
+      </div>
+
+    </div>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="menu__topic">
+            <div class="menu__title">منو</div>
+            <span class="close">&times;</span>
+          </div>
+          <div class="menu__options">
+            <div class="menu__option"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg></div>
+            <div class="menu__option"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg></div>
+            <div class="menu__option"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg></div>
+            <div class="menu__option"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div>
+            <div class="menu__option"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg></div>
+          </div>
+        </div>
+      </div>
+    <div class="container">
+      <!--  -->
+
+
+      <div class="filter">
+        <div class="filter__topic">
+
+          <div class="filter__title">بررسی اجمالی فروش</div>
+          <div class="filter__dec">فروش فعلی خود را مشاهده کنید</div>
+        </div>
+        <div class="filter__btns">
+
+          <div class="filter__input">
+            <input id="filter__input" type="text" style="border: none" />
+  
+            <svg
+              stroke="currentColor"
+              fill="none"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              class="text-lg"
+              height="1em"
+              id="hideSvg"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+              ></path>
+            </svg>
+          </div>
+          <button class="filter__button">
+            <svg
+              stroke="currentColor"
+              fill="none"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"
+              ></path>
+            </svg>
+            فیلتر
+          </button>
+        </div>
+      </div>
+      <div class="purtios__container">
+        <div class="purtios__option">
+          <div class="purtios__title">سرمایه کل</div>
+          <div class="purtios__number">
+            <div class="purtios__num1">$21,827.13</div>
+            <div class="purtios__num2">
+              <div class="purtios__num2-container">
+                11.4%
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 20 20"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="purtios__details">برای سه ماه کار</div>
+        </div>
+        <div class="purtios__option">
+          <div class="purtios__title">سفارش ها</div>
+          <div class="purtios__number">
+            <div class="purtios__num1">1,758</div>
+            <div class="purtios__num2">
+              <div class="purtios__num2-container num2__red">
+                11.4%-
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 20 20"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="purtios__details">برای سه ماه کار</div>
+        </div>
+        <div class="purtios__option">
+          <div class="purtios__title">سرمایه کل</div>
+          <div class="purtios__number">
+            <div class="purtios__num1">$21,827.13</div>
+            <div class="purtios__num2">
+              <div class="purtios__num2-container">
+                11.4%
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 20 20"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="purtios__details">برای سه ماه کار</div>
+        </div>
+      </div>
+      <!-- shapes -->
+      <div class="shape__container">
+        <div class="firstShape__container">
+          <div class="firstShape__topic">
+            <div class="firstShape__title">گزارش خرید ها</div>
+            <button class="firstShape__export">استخراج گزارش</button>
+          </div>
+          <div class="firstShape__shape">
+            <div id="chartContainer" style="height: 300px; width: 100%; font-family: 'kalame';"></div>
+
+          </div>
+          
+        </div>
+        <div class="secondShape__container">
+          <div class="secondShape__title">دسته بندی ها</div>
+          <div class="secondShape__target-container">
+            <div class="secondShape__target"></div>
+            <div class="secondShape__target-item">
+              824
+              <div class="">محصول فروخته شده</div>
+            </div>
+            <div class="secondShape__names">
+              <div class="secondShape__name">
+                <div class="secondShape__name1"></div>
+                ساعت
+              </div>
+              <div class="secondShape__name">
+                <div class="secondShape__name2"></div>
+                موبایل
+              </div>
+              <div class="secondShape__name">
+                <div class="secondShape__name3"></div>
+                کیف
+              </div>
+              <div class="secondShape__name">
+                <div class="secondShape__name4"></div>
+                کفش
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- table -->
+      <div class="tables__container">
+        <div class="table__container">
+          <div class="table__topic">
+            <div class="table__title">گزارش خرید ها</div>
+            <button class="table__export">استخراج گزارش</button>
+          </div>
+          <div class="table">
+            <table>
+              <thead>
+                <tr role="row">
+                  <th colspan="1" role="columnheader">سفارش</th>
+                  <th colspan="1" role="columnheader">وضعیت</th>
+                  <th colspan="1" role="columnheader">مشتری</th>
+                  <th colspan="1" role="columnheader">جمع</th>
+                </tr>
+              </thead>
+              <tbody role="rowgroup">
+                <tr role="row">
+                  <td role="cell">
+                    <span class="">#95954</span>
+                  </td>
+                  <td role="cell">
+                    <div class="flex items-center">
+                      <span class="badge-dot bg-emerald-500"></span
+                      ><span class="status"
+                        ><div class="success"></div>
+                        موفق</span
+                      >
+                    </div>
+                  </td>
+                  <td role="cell">ماهان نجفی</td>
+                  <td role="cell"><span>$168.00</span></td>
+                </tr>
+                <tr role="row">
+                  <td class="" role="cell">
+                    <span class="">#95423</span>
+                  </td>
+                  <td role="cell">
+                    <div class="flex items-center">
+                      <span class=""></span
+                      ><span class="status"
+                        ><div class="success"></div>
+                        موفق</span
+                      >
+                    </div>
+                  </td>
+                  <td role="cell">علی عدیلی</td>
+                  <td role="cell"><span>$523.00</span></td>
+                </tr>
+
+                <tr role="row">
+                  <td role="cell">
+                    <span class="">#89332</span>
+                  </td>
+                  <td role="cell">
+                    <div class="flex items-center">
+                      <span class=""></span
+                      ><span class="status">
+                        <div class="failed"></div>
+                        خطا</span
+                      >
+                    </div>
+                  </td>
+                  <td role="cell">پوریا آقایی</td>
+                  <td role="cell"><span>$597.00</span></td>
+                </tr>
+                <tr role="row">
+                  <td role="cell">
+                    <span class="">#86497</span>
+                  </td>
+                  <td role="cell">
+                    <div class="flex items-center">
+                      <span class=""></span
+                      ><span class="status">
+                        <div class="failed"></div>
+                        خطا</span
+                      >
+                    </div>
+                  </td>
+                  <td role="cell">اتنا باژرنگ</td>
+                  <td role="cell"><span>$189.00</span></td>
+                </tr>
+                <tr role="row">
+                  <td role="cell">
+                    <span class="">#86212</span>
+                  </td>
+                  <td role="cell">
+                    <div class="flex items-center">
+                      <span class=""></span
+                      ><span class="status"
+                        ><div class="success"></div>
+                        موفق</span
+                      >
+                    </div>
+                  </td>
+                  <td role="cell">ی خری</td>
+                  <td role="cell"><span>$672.00</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="table__container">
+          <div class="table__topic">
+            <div class="table__title">بیشترین فروش</div>
+            <button class="table__export">دیدن محصولات</button>
+          </div>
+          <div class="table">
+            <table role="table">
+              <thead>
+                <tr role="row">
+                  <th colspan="1" role="columnheader">محصول</th>
+                  <th colspan="1" role="columnheader">فروخته شده</th>
+                </tr>
+              </thead>
+              <tbody role="rowgroup">
+                <tr role="row">
+                  <td role="cell">
+                    <div >
+                      <span
+                        ><span>هدفون</span>
+                    </div>
+                  </td>
+                  <td role="cell">252</td>
+                </tr>
+                <tr role="row">
+                  <td role="cell">
+                    <div >
+                      <span
+                        ><span >کفش سیاه بالدار</span>
+                    </div>
+                  </td>
+                  <td role="cell">186</td>
+                </tr>
+                <tr role="row">
+                  <td  role="cell">
+                    <div >
+                      <span 
+                        ><span >هودی</span>
+                    </div>
+                  </td>
+                  <td  role="cell">166</td>
+                </tr>
+                <tr  role="row">
+                  <td  role="cell">
+                    <div >
+                      <span 
+                        ><span>موبایل</span>
+                    </div>
+                  </td>
+                  <td  role="cell">93</td>
+                </tr>
+                <tr  role="row">
+                  <td  role="cell">
+                    <div >
+                      <span 
+                        ><span >کیف سبز کلاغی</span>
+                    </div>
+                  </td>
+                  <td  role="cell">81</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+<div class="copyright">
+   ساخته شده با عشق و مقدار زیادی قهوه توسط ماهان نجفی
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
